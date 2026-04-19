@@ -289,4 +289,4 @@ export {
   twitterDetails, 
   isHireable,
   resumeSection
-};
+}; 
