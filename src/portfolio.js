@@ -1,3 +1,4 @@
+
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
@@ -22,7 +23,7 @@ const greeting = {
   username: "KatyFrancesA",
   title: "Hi, I'm Katy",
   subTitle: emoji(
-    "Aspiring IT professional looking for entry level IT roles. Actively building skills through self directed learning and projects, with a long term goal of specialising in cybersecurity. 🚀"
+    "Software QA Tester specialising in manual exploratory testing, accessibility (WCAG) auditing and meticulous defect resolution. Actively leveraging a background in e-commerce operations and strict data compliance to ensure seamless, secure, and logically sound user experiences. 🚀"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1y4-F4iVoLSpNdmnuafSPfVtz8KVFR913bwsPnSUtMzM/edit?usp=sharing", // Set to empty to hide the button
@@ -33,39 +34,31 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/KatyFrancesA",
   linkedin: "https://www.linkedin.com/in/katyfrancesa/",
-  gmail: "katyfrances@tutamail.com",
+  gmail: "katy_a_cv.heroics112@slmail.me",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 const skillsSection = {
   title: "Skill Stack",
-  // subTitle: " Aspiring Security Analyst who wants to explore the art of digital defence",
+  // subTitle: " Meticulous software tester dedicated to flawless user experiences, accessibility and strict data compliance.",
   skills: [
-    emoji(
-      "⚡ Gaining hands on experience with security fundamentals and IT support - from network security to endpoint protection"
-    ),
-    emoji("⚡ Building a solid understanding of networking, firewalls, VPNs and secure configurations for safe enterprise environments"),
-    emoji(
-      "⚡ Studying cyber fundamentals, incident response and system hardening"
-    )
+    "🔍 Executing meticulous manual exploratory testing, boundary value analysis, and drafting comprehensive defect reports.",
+    "♿ Auditing accessibility (A11y) contrast, CSS focus states, and UI/UX responsiveness across device breakpoints.",
+    "🛡️ Validating business logic, security boundaries, and data integrity within complex application lifecycles."
   ],
   softwareSkills: [
+    softwareSkills: [
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Bash", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "PowerShell", fontAwesomeClassname: "fab fa-microsoft" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Go", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "YAML", fontAwesomeClassname: "fas fa-cogs" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
     { skillName: "HTML", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "CSS", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "Regex", fontAwesomeClassname: "fas fa-search" },
-    { skillName: "Networking", fontAwesomeClassname: "fas fa-network-wired" },
-    { skillName: "Firewalls", fontAwesomeClassname: "fas fa-shield-alt" },
-    { skillName: "OSI Model", fontAwesomeClassname: "fas fa-network-wired" },
-    { skillName: "CIA Triad", fontAwesomeClassname: "fas fa-lock" },
-    { skillName: "MFA Solutions", fontAwesomeClassname: "fas fa-key" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Bash", fontAwesomeClassname: "fas fa-terminal" },
+    { skillName: "PowerShell", fontAwesomeClassname: "fas fa-terminal" },
+    { skillName: "Jira / SDLC", fontAwesomeClassname: "fas fa-tasks" },
+    { skillName: "Postman (API)", fontAwesomeClassname: "fas fa-network-wired" }
   ],
   display: true
 };
@@ -114,27 +107,21 @@ const workExperience = {
   display: true,
   experience: [
     {
-      role: "IT Self Study / Home Lab Projects",
-      company: "Personal Development",
-      companylogo: require("./assets/images/selfLogo.png"),
-      date: "April 2025 – Present",
-      desc: "Actively developing practical IT and cybersecurity skills through hands on projects in a home lab environment. Focused on network security, system administration and security tool usage.",
-      descBullets: [
-        "Configuring and managing virtual machines (VirtualBox)",
-        "Practicing network scanning and analysis (Nmap, Wireshark)",
-        "Exploring security tools and ethical hacking concepts (Metasploit)",
-        "Documenting learning and lab setups on GitHub" 
-      ]
+      role: "Freelance QA Tester (Independent Project)",
+      company: "AI-Assisted Application Build",
+      companylogo: require("./assets/images/defaultLogo.png"), 
+      date: "Jan 2024 – Present",
+      desc: "Acting as the sole QA tester for an independent application build. Executing manual exploratory testing, identifying state management failures, and writing comprehensive defect reports for AI-generated code."
     },
     {
       role: "Customer Service Advisor",
       company: "G4S",
       companylogo: require("./assets/images/g4sLogo.png"),
       date: "September 2022 – Present",
-      desc: "Developed problem solving skills in a fast-paced environment. Focused on providing secure client data handling and risk management.",
+      desc: "Navigated complex internal software systems, identifying edge cases and user-flow friction points.",
       descBullets: [
-        "Ensured secure handling of customer data",
-        "Managed risk by following company security protocols"
+        "Enforced strict data integrity and regulatory compliance across government accounts.",
+        "Achieved a 20% reduction in handling time through efficient system navigation and risk management."
       ]
     },
     {
@@ -142,9 +129,10 @@ const workExperience = {
       company: "Kool Kat Illustrations",
       companylogo: require("./assets/images/kkiLogo.png"),
       date: "Jan 2022 – Present",
+      desc: "Managing digital asset creation and storefront analytics.",
       descBullets: [
-        "Utilised SEO, market research and analytics to increase reach and sales.",
-        "Used Adobe Illustrator, InDesign and Procreate to create branding assets."
+        "Utilised SEO, market research, and analytics to increase reach.",
+        "Used Adobe Illustrator, InDesign, and Procreate to create branding assets."
       ]
     },
     {
@@ -152,9 +140,10 @@ const workExperience = {
       company: "Student Loans Company",
       companylogo: require("./assets/images/slcLogo.png"),
       date: "Feb 2020 – Jan 2022",
+      desc: "Resolved user inquiries by strictly enforcing operational logic and data protocols.",
       descBullets:  [
         "Researched complex queries using internal databases and documentation.",
-        "Maintained compliance with data handling and privacy protocols.",
+        "Maintained strict compliance with data handling, GDPR, and privacy protocols.",
       ]
     }
   ]
