@@ -1,5 +1,5 @@
 
-/*Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -48,7 +48,6 @@ const skillsSection = {
     "🛡️ Validating business logic, security boundaries, and data integrity within complex application lifecycles."
   ],
   softwareSkills: [
-    softwareSkills: [
     { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
